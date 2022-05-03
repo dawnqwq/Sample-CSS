@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="china">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>媒体查询案例</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="./style/commons.css">
+<link rel="stylesheet" href="./style/index.css">
+<link rel="stylesheet" href="./style/index-media.css">
+
+<body>
+
+  <input type="checkbox" class="xs-hide lg-hide md-hide sm-hide" name="aside" id="aside">
+  <ul class="xs-nav-bar lg-hide md-hide">
+    <li class="current">首页</li>
+    <li class="">商城</li>
+    <li class="">关于</li>
+    <li class="">联系</li>
+    <label for="aside">
+      <li>关闭</li>
+    </label>
+  </ul>
+
+
+  <div class="container">
+    <div class="row header">
+      <div class="header-log col-lg-2 col-md-2 col-sm-2 col-xs-2">
+        <label for="aside">
+          <i class="fa fa-bars lg-hide md-hide"></i>
+        </label>
+        <img class="xs-hide sm-hide"
+          src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvNWNkNTgxZmU3MTlhZjgwN2I0NDllMWQ5ZDVjMmVkOTctOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp"
+          alt="简单商城模板">
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 header-nav">
+        <img class="logo lg-hide md-hide sm-hide"
+          src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvNWNkNTgxZmU3MTlhZjgwN2I0NDllMWQ5ZDVjMmVkOTctOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp"
+          alt="简单商城模板">
+        <ul class="nav-bar row xs-hide">
+          <li class="col-lg-3 col-md-3 col-sm-3 current">首页</li>
+          <li class="col-lg-3 col-md-3 col-sm-3">商城</li>
+          <li class="col-lg-3 col-md-3 col-sm-3">关于</li>
+          <li class="col-lg-3 col-md-3 col-sm-3">联系</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header-search">
+        <svg t="1650892868344" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          p-id="2425" width="32" height="32">
+          <path
+            d="M921.3 874L738.1 690.8c51.3-62.6 82.1-142.5 82.1-229.6 0-200.1-162.8-363-363-363-200.1 0-363 162.8-363 363s162.8 363 363 363c87 0 167-30.8 229.6-82.1L870 925.3c7.1 7.1 16.4 10.6 25.7 10.6s18.6-3.5 25.7-10.6c14.1-14.2 14.1-37.2-0.1-51.3zM166.8 461.2c0-160.1 130.3-290.4 290.4-290.4s290.4 130.3 290.4 290.4-130.3 290.4-290.4 290.4-290.4-130.3-290.4-290.4z"
+            p-id="2426"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- 轮播图 -->
+  <div class="fuild-container banner">
+    <div class="container">
+      <div class="row">
+        <input class="input" type="radio" name="banner" id="banner1">
+        <input type="radio" name="banner" id="banner2">
+        <div class="banner-list">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="banner-list-text">
+                  <h1>釉下彩陶瓷碗碟</h1>
+                  <p>| 回归初始烹饪 |</p>
+                  <p>黑胡桃木加工，手工打磨，表面有环保生漆，光滑细腻，重量适中，粗细均匀，没有其他材料比木更能给人自然的感觉</p>
+                  <a href="#">现在购买 / ￥169.00</a>
+                </div>
+              </div>
+              <div class="img col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="banner1">
+                  <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZmQzNGVhNTM3ZjAzMDFkY2IwOTA1ZGJmMTk5ZDE4MTUtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp" alt="">
+                </label>              
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="banner-list-text">
+                  <h1>釉下彩陶瓷碗碟</h1>
+                  <p>| 回归初始烹饪 |</p>
+                  <p>黑胡桃木加工，手工打磨，表面有环保生漆，光滑细腻，重量适中，粗细均匀，没有其他材料比木更能给人自然的感觉</p>
+                  <a href="#">现在购买 / ￥169.00</a>
+                </div>
+              </div>
+              <div class="img col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <label for="banner2">
+                  <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZmQzNGVhNTM3ZjAzMDFkY2IwOTA1ZGJmMTk5ZDE4MTUtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp" alt="">
+                </label>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row myshop">
+      <h2>欢迎来到我的店</h2>
+      <p>尊敬的客户，在这里您可以找到各种各样的家具和配件，满足您所有的室内装饰创意和需求。利用设计师的细节为您的客房创造独特的风格，并使其实用且舒适。</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h2 class="goods"> 人气商品 </h2>
+    </div>
+    <ul class="row goods-list">
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+      <li class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvZDg0NThjNWE4OTQ1N2RlMTM1OGQxY2QxYWFjYWVmMjEtNDAweDQwMC05MC53ZWJw.webp" alt="">
+      </li>
+    </ul>
+  </div>
+
+  <div class="fuild-container mid">
+    <div class="container">
+      <div class="row">
+        <div class="first col-lg-6 col-md-6 col-sm-6 col-sx-12">
+          <img src="https://ccdn.goodq.top/caches/3f6aeb9a4a068f697f07299a3fd1d95f/aHR0cHM6Ly81ZWE5NDQxMDI4MDZjLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjAvMDQvMjI5N2Q4Nzc1NTJmMGFmZjg4MzFiNjFkYTYxY2ViNmYtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp" alt="">
+        </div>
+        <div class="second col-lg-6 col-md-6 col-sm-6 col-sx-12">
+          <h2>我们正在努力使您的空间个性化</h2>
+          <p>我们是一个由专家组成的团队，他们会为您的所有需求和各种空间提供工艺细节。详细了解我们，我们的经验，目标和成就</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright &copy; 2022 dudurenxi </p>
+  </div>
+</body>
+</html>
